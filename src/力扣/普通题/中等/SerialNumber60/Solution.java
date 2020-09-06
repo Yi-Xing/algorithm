@@ -1,4 +1,4 @@
-package 每日力扣.普通题.中等.SerialNumber60;
+package 力扣.普通题.中等.SerialNumber60;
 
 import java.util.ArrayList;
 import java.util.List;
