@@ -67,7 +67,7 @@ if two == 1:
 ````
 即：`one = one ^ n & ~two`
 
-**two的计算方法：**根据one的计算结果判断two的值
+**two的计算方法：** 根据one的计算结果判断two的值
 ````
 if one == 0:
   if n == 0:
