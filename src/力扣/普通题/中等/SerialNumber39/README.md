@@ -53,6 +53,12 @@ candidates 中的数字可以无限制重复被选取。
 
 ### 代码
 
-[代码链接](Solution.java)
+[代码链接](Solution1.java)
 
-![提交记录](39.png)
+![提交记录](39(1).png)
+
+**优化**
+
+[代码链接](Solution2.java)
+
+![提交记录](39(2).png)
