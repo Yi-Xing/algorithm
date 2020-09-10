@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @date 2020-09-08
  */
-class Solution {
+public class Solution1 {
 
     List<Integer> temp = new ArrayList<>();
     List<List<Integer>> ans = new ArrayList<>();
