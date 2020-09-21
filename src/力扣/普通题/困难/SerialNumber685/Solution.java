@@ -52,6 +52,7 @@ public class Solution {
     }
 
     class UnionFind {
+
         int[] ancestor;
 
         public UnionFind(int n) {
