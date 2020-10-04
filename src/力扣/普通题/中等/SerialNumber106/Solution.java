@@ -14,22 +14,22 @@ public class Solution {
     int po;
 
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        in=inorder.length-1;
-        po=postorder.length-1;
-        return dfs(Integer.MAX_VALUE,inorder,postorder);
+        in = inorder.length - 1;
+        po = postorder.length - 1;
+        return dfs(Integer.MAX_VALUE, inorder, postorder);
     }
 
-    public TreeNode dfs(int stop,int[] inorder, int[] postorder) {
-        if(po<0){
+    public TreeNode dfs(int stop, int[] inorder, int[] postorder) {
+        if (po < 0) {
             return null;
         }
-        if(inorder[in]==stop){
+        if (inorder[in] == stop) {
             in--;
             return null;
         }
-        TreeNode root=new TreeNode(postorder[po--]);
-        root.right=dfs(root.val,inorder,postorder);
-        root.left=dfs(stop,inorder,postorder);
+        TreeNode root = new TreeNode(postorder[po--]);
+        root.right = dfs(root.val, inorder, postorder);
+        root.left = dfs(stop, inorder, postorder);
         return root;
     }
 

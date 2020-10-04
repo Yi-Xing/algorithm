@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class Solution2 {
 
-    public String simplifyPath1(String path) {
+    public String simplifyPath(String path) {
         path += '/';
         char[] chs = path.toCharArray();
         // 指针指向当前下标的字符
